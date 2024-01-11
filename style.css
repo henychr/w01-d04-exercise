@@ -15,11 +15,11 @@ span:last-child {
 }
 
 section.creators a {
-    font-family: 'Lato';
+    font-family: 'Lato',sans-serif;
     text-decoration: none;
 }
 
-section.creators a {
+.creators .link.font {
     font-family: 'PT Serif';
     font-weight: bold;
 }
@@ -35,4 +35,24 @@ text-decoration: underline;
 
 ul li:nth-child(3) {
     text-decoration: underline;
+}
+
+nav a {
+    display: inline-block;
+    position: relative;
+    text-decoration: none;
+    
+}
+
+nav a:after {
+    content: "";
+    width: 100%;
+    position:absolute;
+    transform: scaleX(0);
+}
+
+nav a:hover {
+    transform: scaleX(1);
+    transform-origin: left;
+    transition: 0.5ms;
 }
