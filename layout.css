@@ -1,0 +1,32 @@
+html {
+    font-family: sans-serif;
+}
+
+main {
+    width: 75vw;
+    margin: 0 auto;
+}
+
+header {
+    width: 75vw;
+    text-align: center;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+nav {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+}
+
+h2 {
+    margin-top: 3rem;
+    margin-bottom: 1.5rem;
+}
+
+blockquote {
+    padding: 1rem;
+}
