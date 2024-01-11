@@ -1,0 +1,38 @@
+nav a {
+    color: crimson;
+}
+
+section.about>blockquote {
+    background-color:#eaeaea;
+}
+
+section.users span {
+    font-weight: bold;
+}
+
+span:last-child {
+    color: crimson;
+}
+
+section.creators a {
+    font-family: 'Lato';
+    text-decoration: none;
+}
+
+section.creators a {
+    font-family: 'PT Serif';
+    font-weight: bold;
+}
+
+section.cta>h2 {
+color: crimson;
+font-family: 'Lato';
+}
+
+ul li:first-child {
+text-decoration: underline;
+}
+
+ul li:nth-child(3) {
+    text-decoration: underline;
+}
